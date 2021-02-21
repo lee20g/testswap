@@ -42,7 +42,9 @@ export function getEthPriceInUSD(): BigDecimal {
 
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
-  '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f', // BNB
+  '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f', // WHT
+  '0xa71edc38d189767582c38a3145b5873052c3e47a', // USDT
+  '0x56f95662e71f30b333b456439248c6de589082a4', // lava
 ]
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
