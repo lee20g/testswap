@@ -28,7 +28,7 @@ export function getEthPriceInUSD(): BigDecimal {
   //   return ZERO_BD
   // }
   if (daiPair !== null) {
-    return daiPair.token1Price
+    return daiPair.token0Price
   } else {
     return ZERO_BD
   }
