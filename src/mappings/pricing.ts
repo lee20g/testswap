@@ -16,14 +16,19 @@ export function getEthPriceInUSD(): BigDecimal {
   let usdtPair = Pair.load(USDT_WETH_PAIR) // usdt is token1
 
   // all 3 have been created
-  if (daiPair !== null && usdtPair !== null) {
-    let totalLiquidityETH = daiPair.reserve1.plus(usdtPair.reserve1)
-    let daiWeight = daiPair.reserve1.div(totalLiquidityETH)
-    let usdcWeight = usdtPair.reserve1.div(totalLiquidityETH)
-    return daiPair.token0Price.times(daiWeight).plus(usdtPair.token0Price.times(usdcWeight))
-    // USDC is the only pair so far
-  } else if (daiPair !== null) {
-    return daiPair.token0Price
+  // if (daiPair !== null && usdtPair !== null) {
+  //   let totalLiquidityETH = daiPair.reserve1.plus(usdtPair.reserve1)
+  //   let daiWeight = daiPair.reserve1.div(totalLiquidityETH)
+  //   let usdcWeight = usdtPair.reserve1.div(totalLiquidityETH)
+  //   return daiPair.token0Price.times(daiWeight).plus(usdtPair.token0Price.times(usdcWeight))
+  //   // USDC is the only pair so far
+  // } else if (daiPair !== null) {
+  //   return daiPair.token0Price
+  // } else {
+  //   return ZERO_BD
+  // }
+  if (daiPair !== null) {
+    return daiPair.token1Price
   } else {
     return ZERO_BD
   }
