@@ -1,0 +1,33 @@
+{
+    "name": "Testswap Token List",
+    "version": {
+        "major": 0,
+        "minor": 2,
+        "patch": 0
+    },
+    "keywords": [
+        "gemini",
+        "tokens",
+        "trusted"
+    ],
+    "logoURI": "https://gemini.com/static/images/loader.png",
+    "timestamp": "2021-03-23T14:15:22+0000",
+    "tokens": [
+        {
+            "name": "token0",
+            "address": "0xD44fa03976f76e1a61B12E8FD1f17e8Ded8d4C31",
+            "symbol": "token0",
+            "decimals": 18,
+            "chainId": 97,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+          },
+          {
+            "name": "token1",
+            "address": "0xc8Fc7B1DA21fB1D71b104e78D53b8a639dFaC431",
+            "symbol": "token1",
+            "decimals": 18,
+            "chainId": 97,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+          }
+    ]
+  }
