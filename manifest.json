@@ -28,6 +28,14 @@
             "decimals": 18,
             "chainId": 97,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+          },
+          {
+            "name": "token3",
+            "address": "0x943ff91B815e334139f72dc7227547506994af06",
+            "symbol": "token3",
+            "decimals": 18,
+            "chainId": 97,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
           }
     ]
   }
